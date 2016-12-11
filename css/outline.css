@@ -1,0 +1,105 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  border: none;
+  margin: 0;
+  padding: 0; }
+
+body {
+  min-width: 100%;
+  min-height: 100vh;
+  font-size: 16px;
+  font-family: sans-serif; }
+
+button,
+.button {
+  -webkit-appearance: none;
+  border: 0.1rem solid #000;
+  color: #000;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  outline: 0;
+  padding: 0.5em 1.5em;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap; }
+  button:focus,
+  .button:focus {
+    background: #030303; }
+  button:hover,
+  .button:hover {
+    background: #000;
+    border-color: black;
+    color: #fff; }
+  button:active,
+  .button:active, button.active,
+  .active.button {
+    background: black;
+    border-color: black;
+    color: #fff; }
+
+button.primary,
+.button.primary {
+  background: #1c7293; }
+
+.hero {
+  width: 100%;
+  min-height: 40vmax;
+  max-height: 500px;
+  padding: 1.5em 1em;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: black;
+  color: white; }
+  @media screen and (min-width: 37.5em) and (max-width: 61.25em) {
+    .hero {
+      font-size: 3rem; } }
+  @media screen and (min-width: 61.3125em) {
+    .hero {
+      min-height: 35vmax;
+      font-size: 4rem; } }
+
+.hero_title {
+  font-size: inherit; }
+
+.call-to-action {
+  width: 100%;
+  min-height: 30vmin;
+  padding: 1.5em 1em;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: blue;
+  color: white; }
+  @media screen and (min-width: 37.5em) {
+    .call-to-action {
+      font-size: 1.5rem; } }
+
+.call-to-action_title {
+  font-size: 1.5rem; }
+  @media screen and (min-width: 37.5em) and (max-width: 61.25em) {
+    .call-to-action_title {
+      font-size: 1.85rem; } }
+  @media screen and (min-width: 61.3125em) {
+    .call-to-action_title {
+      font-size: 2.5rem; } }
+
+.round {
+  border-radius: 0.3em; }
+
+.block {
+  display: block;
+  width: 100%; }
+
+.empty {
+  margin: 20px 0;
+  height: 1px; }
