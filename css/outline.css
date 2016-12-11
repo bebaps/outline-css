@@ -93,6 +93,23 @@ button.primary,
     .call-to-action_title {
       font-size: 2.5rem; } }
 
+.fifty-fifty {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap; }
+  .fifty-fifty > div {
+    width: 100%;
+    height: 100%;
+    flex: none; }
+    @media screen and (min-width: 61.3125em) {
+      .fifty-fifty > div {
+        width: 50%; } }
+    .fifty-fifty > div:nth-child(1) {
+      background: green; }
+    .fifty-fifty > div:nth-child(2) {
+      background: red; }
+
 .round {
   border-radius: 0.3em; }
 
