@@ -2,7 +2,7 @@
 // -----------------------------------------------------------------------------
 .hero {
   width: 100%;
-  min-height: 40vmax;
+  min-height: 40vmax; // The height could just as easily be replaced with a set px based height
   max-height: 500px;
   padding: 1.5em 1em;
   font-size: 2rem;
@@ -18,11 +18,9 @@
     min-height: 35vmax;
     font-size: 4rem;
   }
-
-  background: black;
-  color: white;
 }
 
+// Hero title
 .hero_title {
   font-size: inherit;
 }

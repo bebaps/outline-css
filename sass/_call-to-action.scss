@@ -2,7 +2,7 @@
 // -----------------------------------------------------------------------------
 .call-to-action {
   width: 100%;
-  min-height: 30vmin;
+  min-height: 30vmin; // The height could just as easily be replaced with a set px based height
   padding: 1.5em 1em;
   font-size: 1rem;
   display: flex;
@@ -13,11 +13,9 @@
   @media screen and (min-width: 37.5em) { // 981px
     font-size: 1.5rem;
   }
-
-  background: blue;
-  color: white;
 }
 
+// Call to Action title
 .call-to-action_title {
   font-size: 1.5rem;
 

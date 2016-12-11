@@ -1,19 +1,21 @@
+:root {
+  box-sizing: border-box;
+  font-size: $font_size;
+  font-family: $font_family;
+  -webkit-font-smoothing: antialiased;
+}
+
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  box-sizing: inherit;
+
   border: none;
   margin: 0;
   padding: 0;
 }
 
-// html,
-// body {
-// }
-
 body {
   min-width: 100%;
   min-height: 100vh;
-  font-size: $font_size;
-  font-family: $font_family;
 }
