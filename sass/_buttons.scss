@@ -1,4 +1,5 @@
-%button {
+button,
+.button {
   -webkit-appearance: none;
   border: 0.1rem solid $color_black;
   color: $color_black;
@@ -30,11 +31,6 @@
     border-color: darken($color_black, 10%);
     color: $color_white;
   }
-}
-
-button,
-.button {
-  @extend %button;
 
   &.primary {
       background: $color_primary;
