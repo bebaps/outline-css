@@ -21,6 +21,30 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
+	"\/code.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/code.html",
+		"oF": 0
+		},
+	"\/code.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/code.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/css\/outline.css": {
 		"aP": 0,
 		"bl": 0,
@@ -30,6 +54,14 @@
 		"oAP": "\/css\/outline-ck.css",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/images\/transparent.png": {
+		"ft": 32768,
+		"iS": 781,
+		"oA": 0,
+		"oAP": "\/images\/transparent.png",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/index.html": {
 		"ft": 8192,
@@ -116,6 +148,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/_fifty-fifty.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/_fullscreen-video.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_fullscreen-video.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -262,6 +307,26 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/video\/sample-poster.jpg": {
+		"ft": 16384,
+		"iS": 81243,
+		"oA": 0,
+		"oAP": "\/video\/sample-poster.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/video\/sample-video.mp4": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/video\/sample-video.mp4",
+		"oF": 0
+		},
+	"\/video\/sample-video500.mp4": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/video\/sample-video500.mp4",
+		"oF": 0
 		}
 	},
 "hooks": [

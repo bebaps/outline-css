@@ -59,7 +59,6 @@ object.responsive {
   }
 }
 
-
 // A standard max-width container
 .container {
   position: relative;
@@ -68,4 +67,23 @@ object.responsive {
   // padding-right: 20px;
   width: 90%;
   max-width: 1200px;
+}
+
+// Push a section off the screen
+.off-screen {
+  &-top {
+    transform: translateY(-100vh);
+  }
+
+  &-bottom {
+    transform: translateY(100vh);
+  }
+
+  &-left {
+    transform: translateX(-100vh);
+  }
+
+  &-right {
+    transform: translateX(100vh);
+  }
 }
