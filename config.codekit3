@@ -21,12 +21,6 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
-	"\/code.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/code.html",
-		"oF": 0
-		},
 	"\/code.md": {
 		"cS": 0,
 		"eF": 1,
@@ -385,12 +379,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/video\/sample-video.mp4",
-		"oF": 0
-		},
-	"\/video\/sample-video500.mp4": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/video\/sample-video500.mp4",
 		"oF": 0
 		}
 	},
@@ -2177,7 +2165,7 @@
 		"strictUnits": 0
 		},
 	"languageDefaultsMARKDOWN": {
-		"autoOutputAction": 0,
+		"autoOutputAction": 1,
 		"autoOutputPathFilenamePattern": "*.html",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",

@@ -120,10 +120,67 @@
   </div>
 </div>
 ```
+
 ### Full Screen Background Video
 Note that this uses a 2x2px transparent `png` for the poster
 ```
 <video class="fullscreen-video" playsinline autoplay muted loop preload="auto" poster="images/transparent.png">
   <source src="video/sample-video500.mp4" type="video/mp4">
 </video>
+```
+
+### Social Links
+```
+<nav class="social-links">
+  <ul>
+    <li><a href="https://www.facebook.com/">Facebook</a></li>
+    <li><a href="https://www.instagram.com/">Instagram</a></li>
+    <li><a href="https://github.com/">Github</a></li>
+  </ul>
+</nav>
+```
+
+### Accordion
+```
+<div class="accordion">
+  <div class="accordion_panel">
+    <header class="accordion_panel-header">
+      <p>Panel Title</p>
+    </header>
+    <div class="accordion_panel-content">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+  </div>
+  <div class="accordion_panel">
+    <header class="accordion_panel-header">
+      <p>Panel Title</p>
+    </header>
+    <div class="accordion_panel-content">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+  </div>
+  <div class="accordion_panel">
+    <header class="accordion_panel-header">
+      <p>Panel Title</p>
+    </header>
+    <div class="accordion_panel-content">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+  </div>
+</div>
 ```
