@@ -87,3 +87,13 @@ object.responsive {
     transform: translateX(100vh);
   }
 }
+
+// Open modifier. Not intended for direct use in HTML, but instead should only be added/removed via JavaScript
+.--open {
+  display: block;
+}
+
+// Closed modifier. Not intended for direct use in HTML, but instead should only be added/removed via JavaScript
+.--closed {
+  display: none;
+}

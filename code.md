@@ -120,3 +120,10 @@
   </div>
 </div>
 ```
+### Full Screen Background Video
+Note that this uses a 2x2px transparent `png` for the poster
+```
+<video class="fullscreen-video" playsinline autoplay muted loop preload="auto" poster="images/transparent.png">
+  <source src="video/sample-video500.mp4" type="video/mp4">
+</video>
+```

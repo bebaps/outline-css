@@ -301,6 +301,62 @@ button,
     .fullscreen-video {
       display: block; } }
 
+.social-links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.social-links li:not(:last-child) a {
+  margin-right: 0.625rem; }
+
+.social-links a {
+  display: inline-block;
+  font-size: 1px;
+  color: transparent;
+  width: 50px;
+  height: 50px; }
+  .social-links a::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat; }
+
+a[href*="facebook.com"]::before {
+  background-image: url(../images/facebook.svg); }
+
+a[href*="instagram.com"]::before {
+  background-image: url(../images/instagram.svg); }
+
+a[href*="github.com"]::before {
+  background-image: url(../images/github.svg); }
+
+.accordion {
+  max-width: 600px;
+  margin: 2rem auto;
+  width: 90%;
+  background: #f4f4f4; }
+
+.accordion_panel-header {
+  padding: 1rem 1.5rem;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  -webkit-transition: .3s ease;
+  transition: .3s ease; }
+  .accordion_panel-header:hover {
+    background: #404040; }
+
+.accordion_panel-content {
+  display: none;
+  padding: 1rem 1.5rem;
+  color: #262626; }
+
 .round {
   border-radius: 0.3em; }
 
@@ -363,3 +419,9 @@ object.responsive {
 .off-screen-right {
   -webkit-transform: translateX(100vh);
           transform: translateX(100vh); }
+
+.--open {
+  display: block; }
+
+.--closed {
+  display: none; }
