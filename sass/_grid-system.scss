@@ -1,0 +1,86 @@
+// Grid System
+// -----------------------------------------------------------------------------
+$column-count: 12 !default;
+$gutter-size: .5rem !default;
+$medium: 600px;
+$large: 900px;
+
+@function find_column_width($columns: $column-count) {
+  $column-width: (100% / $columns);
+
+  @return $column-width;
+}
+
+@mixin grid($nested: false, $gutters: true) {
+  display: flex;
+  flex-wrap: wrap;
+
+  @if $nested {
+    flex: 0 1 auto;
+  }
+
+  @if $gutters {
+    > * {
+     padding-left: $gutter-size;
+     padding-right: $gutter-size;
+    }
+  }
+}
+
+@mixin column($columns: 0, $md: null, $lg: null) {
+  $width: find_column_width();
+  $flex-basis: $width * $columns;
+
+  @if ($columns == 0) {
+    flex: 1 1 0%;
+    width: auto;
+  } @else {
+    flex: 0 0 $flex-basis;
+    min-width: $flex-basis;
+  }
+
+  @if ($md != null) {
+    @media screen and (min-width: $medium) {
+      $flex-basis: $width * $md;
+      @if ($md == 0) {
+        flex: 1 1 0%;
+        width: auto;
+      } @else {
+        flex: 0 0 $flex-basis;
+        min-width: $flex-basis;
+      }
+    }
+  }
+
+  @if ($lg != null) {
+    @media screen and (min-width: $large) {
+      $flex-basis: $width * $lg;
+      @if ($lg == 0) {
+        flex: 1 1 0%;
+        width: auto;
+      } @else {
+        flex: 0 0 $flex-basis;
+        min-width: $flex-basis;
+      }
+    }
+  }
+}
+
+// Demo
+// -----------------------------------------------------------------------------
+.box {
+  height: 50px;
+  background-color: gray;
+}
+
+.grid-system {
+  @include grid();
+
+  > div {
+      @include column();
+
+      &:nth-child(6) {
+        @include column(4, $md: 7, $lg: 2);
+      }
+  }
+}

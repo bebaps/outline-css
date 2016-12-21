@@ -30,11 +30,11 @@ object.responsive {
 // Responsive embed
 .embed {
   position: relative;
-  padding-bottom: 56.25%; // 16:9
+  padding-bottom: 56.25%; // 16:9 by default
   height: 0;
   overflow: hidden;
 
-  &.embed-4-by-3 { // 4:3
+  &.is-4by3 { // 4:3
     padding-bottom: 75%;
   }
 
@@ -62,7 +62,8 @@ object.responsive {
 // A standard max-width container
 .container {
   position: relative;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   // padding-left: 20px;
   // padding-right: 20px;
   width: 90%;
@@ -89,11 +90,11 @@ object.responsive {
 }
 
 // Open modifier. Not intended for direct use in HTML, but instead should only be added/removed via JavaScript
-.--open {
+.is-open {
   display: block;
 }
 
 // Closed modifier. Not intended for direct use in HTML, but instead should only be added/removed via JavaScript
-.--closed {
+.is-closed {
   display: none;
 }

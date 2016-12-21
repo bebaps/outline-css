@@ -7,7 +7,7 @@
 		"uuidString": "CCBDCC6F-B474-4584-A2BE-733EFFA35BEC"
 		}
 	],
-"creatorBuild": "25444",
+"creatorBuild": "25479",
 "files": {
 	"\/.editorconfig": {
 		"ft": 8192,
@@ -48,6 +48,12 @@
 		"oAP": "\/css\/outline-ck.css",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/css\/outline.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/outline.css.map",
+		"oF": 0
 		},
 	"\/images\/facebook.svg": {
 		"ft": 2097152,
@@ -95,12 +101,21 @@
 		},
 	"\/js\/accordion.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
-		"oAP": "\/js\/min\/accordion-min.js",
+		"oAP": "\/js\/accordion.js",
 		"oF": 0,
-		"sC": 1,
-		"tS": 0
+		"sC": 3,
+		"tS": 1
+		},
+	"\/js\/main.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/js\/main.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
 		},
 	"\/README.md": {
 		"cS": 0,
@@ -121,250 +136,276 @@
 		"uCM": 0
 		},
 	"\/sass\/_accordion.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 5,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
 		"oAP": "\/css\/_accordion.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 2,
 		"uL": 1
 		},
 	"\/sass\/_base.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 5,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
 		"oAP": "\/css\/_base.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 2,
 		"uL": 1
 		},
 	"\/sass\/_buttons.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 5,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
 		"oAP": "\/css\/_buttons.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 2,
 		"uL": 1
 		},
 	"\/sass\/_call-to-action.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 5,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
 		"oAP": "\/css\/_call-to-action.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 2,
 		"uL": 1
 		},
 	"\/sass\/_card.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 5,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
 		"oAP": "\/css\/_card.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 2,
 		"uL": 1
 		},
 	"\/sass\/_fifty-fifty.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 5,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
 		"oAP": "\/css\/_fifty-fifty.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 2,
 		"uL": 1
 		},
 	"\/sass\/_fullscreen-video.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 5,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
 		"oAP": "\/css\/_fullscreen-video.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 2,
+		"uL": 1
+		},
+	"\/sass\/_grid-system.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/css\/_grid-system.css",
+		"oF": 0,
+		"oS": 2,
 		"uL": 1
 		},
 	"\/sass\/_grid.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 5,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
 		"oAP": "\/css\/_grid.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 2,
 		"uL": 1
 		},
 	"\/sass\/_hero.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 5,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
 		"oAP": "\/css\/_hero.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 2,
+		"uL": 1
+		},
+	"\/sass\/_images.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/css\/_images.css",
+		"oF": 0,
+		"oS": 2,
 		"uL": 1
 		},
 	"\/sass\/_media-item.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 5,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
 		"oAP": "\/css\/_media-item.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 2,
 		"uL": 1
 		},
 	"\/sass\/_social-links.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 5,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
 		"oAP": "\/css\/_social-links.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 2,
 		"uL": 1
 		},
 	"\/sass\/_typography.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 5,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
 		"oAP": "\/css\/_typography.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 2,
 		"uL": 1
 		},
 	"\/sass\/_utilities.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 5,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
 		"oAP": "\/css\/_utilities.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 2,
 		"uL": 1
 		},
 	"\/sass\/abstracts\/_all.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 5,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
 		"oAP": "\/sass\/css\/_all.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 2,
 		"uL": 1
 		},
 	"\/sass\/abstracts\/_functions.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 5,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
 		"oAP": "\/sass\/css\/_functions.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 2,
 		"uL": 1
 		},
 	"\/sass\/abstracts\/_mixins.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 5,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
 		"oAP": "\/sass\/css\/_mixins.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 2,
 		"uL": 1
 		},
 	"\/sass\/abstracts\/_placeholders.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 5,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
 		"oAP": "\/sass\/css\/_placeholders.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 2,
 		"uL": 1
 		},
 	"\/sass\/abstracts\/_variables.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 5,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 1,
 		"oAP": "\/sass\/css\/_variables.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 2,
 		"uL": 1
 		},
 	"\/sass\/outline.scss": {
 		"aP": 1,
 		"bl": 0,
-		"dP": 10,
+		"dP": 5,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 0,
 		"oAP": "\/css\/outline.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 2,
 		"uL": 1
 		},
 	"\/video\/sample-poster.jpg": {
@@ -397,10 +438,10 @@
 	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
-	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerBrowserString": "> 1%, last 3 versions, Firefox ESR, Opera 12.1",
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
-	"babelConfigFileHandlingType": 0,
+	"babelConfigFileHandlingType": 1,
 	"babelCustomPluginsList": "",
 	"babelCustomPresetsList": "",
 	"babelInsertModuleIDs": 0,
@@ -788,7 +829,7 @@
 		},
 	"esLintConfigFileHandlingType": 1,
 	"esLintECMAVersion": 7,
-	"esLintEnvironmentsMask": 1,
+	"esLintEnvironmentsMask": 8193,
 	"esLintRules": {
 		"accessor-pairs": {
 			"active": 0,
@@ -833,6 +874,10 @@
 		"camelcase": {
 			"active": 0,
 			"optionString": "{'properties': 'always'}"
+			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
 			},
 		"class-methods-use-this": {
 			"active": 0,
@@ -997,6 +1042,10 @@
 		"max-statements": {
 			"active": 0,
 			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
+			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
 			},
 		"multiline-ternary": {
 			"active": 0,
@@ -1362,6 +1411,10 @@
 			"active": 0,
 			"optionString": "'except-parens'"
 			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-script-url": {
 			"active": 0,
 			"optionString": ""
@@ -1593,6 +1646,10 @@
 		"radix": {
 			"active": 0,
 			"optionString": "'always'"
+			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-jsdoc": {
 			"active": 0,
@@ -2060,7 +2117,7 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
-		"minifyOutput": 1,
+		"minifyOutput": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
@@ -2108,16 +2165,16 @@
 		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsJS": {
-		"autoOutputAction": 1,
-		"autoOutputPathFilenamePattern": "*-min.js",
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
 		"autoOutputPathRelativePath": "\/min",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 2,
+		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
-		"minifyOutput": 1,
-		"syntaxCheckerStyle": 1,
-		"transpilerStyle": 0
+		"minifyOutput": 0,
+		"syntaxCheckerStyle": 3,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsJSON": {
 		"autoOutputAction": 1,
@@ -2217,11 +2274,11 @@
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 2,
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
+		"decimalPrecision": 5,
+		"outputStyle": 2,
+		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 1
 		},
@@ -2426,6 +2483,10 @@
 			},
 		"space-colon": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"support-ie8": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"toplevel": {
