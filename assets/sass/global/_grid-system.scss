@@ -1,0 +1,105 @@
+/* -----------------------------------------------------------------------------
+  # Grid System
+----------------------------------------------------------------------------- */
+// Set the grid defaults
+// -----------------------------------------------------------------------------
+$column-count: 12 !default;
+$gutter-size: 0 0.5rem !default;
+$medium: 600px;
+$large: 900px;
+
+// Find the width of 1 column, based upon the column count
+// -----------------------------------------------------------------------------
+@function find_column_width($columns: $column-count) {
+  $column-width: (100% / $columns);
+
+  @return $column-width;
+}
+
+// Create a grid container to house the columns
+// -----------------------------------------------------------------------------
+@mixin grid($nested: false, $gutters: true) {
+  display: flex;
+  flex-wrap: wrap;
+
+  @if $nested {
+    flex: 0 1 auto;
+  }
+
+  @if $gutters {
+    > * {
+      padding-left: $gutter-size;
+      padding-right: $gutter-size;
+    }
+  }
+}
+
+// Create a column of the grid
+// -----------------------------------------------------------------------------
+@mixin column($columns: 0, $md: null, $lg: null) {
+  $width: find_column_width();
+  $flex-basis: $width * $columns;
+
+  // Setting $columns = 0 will set the column to be auto width and fill available space
+  @if ($columns == 0) {
+    flex: 1 1 0%;
+    width: auto;
+  } @else {
+    flex: 0 0 $flex-basis;
+    min-width: $flex-basis;
+  }
+
+  // Set the column width on medium screens
+  @if ($md != null) {
+    @media screen and (min-width: $medium) {
+      $flex-basis: $width * $md;
+      @if ($md == 0) {
+        flex: 1 1 0%;
+        width: auto;
+      } @else {
+        flex: 0 0 $flex-basis;
+        min-width: $flex-basis;
+      }
+    }
+  }
+
+  // Set the column width on medium screens
+  @if ($lg != null) {
+    @media screen and (min-width: $large) {
+      $flex-basis: $width * $lg;
+      @if ($lg == 0) {
+        flex: 1 1 0%;
+        width: auto;
+      } @else {
+        flex: 0 0 $flex-basis;
+        min-width: $flex-basis;
+      }
+    }
+  }
+}
+
+// Demo
+// -----------------------------------------------------------------------------
+.grid-system {
+  @include grid();
+
+  > div {
+    @include column();
+
+    &:nth-child(1) {
+      @include column(3, $md: 7, $lg: 2);
+    }
+
+    &:nth-child(2) {
+      @include column(1, $md: 2, $lg: 3);
+    }
+
+    &:nth-child(3) {
+      @include column(6, $md: 1, $lg: 5);
+    }
+
+    &:nth-child(4) {
+      @include column(2, $md: 2, $lg: 2);
+    }
+  }
+}

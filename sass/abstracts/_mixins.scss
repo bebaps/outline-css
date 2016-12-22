@@ -1,9 +1,0 @@
-// Mixins
-// -----------------------------------------------------------------------------
-@mixin overlay($offset: 0) {
-  position: absolute;
-  top: $offset;
-  right: $offset;
-  bottom: $offset;
-  left: $offset;
-}

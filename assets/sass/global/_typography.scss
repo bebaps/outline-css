@@ -1,0 +1,23 @@
+/* -----------------------------------------------------------------------------
+  # Typography
+----------------------------------------------------------------------------- */
+// Only setting styles for flow content wrapped in .content
+// This allows other components to set their own styles for these elements
+// -----------------------------------------------------------------------------
+.content {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-bottom: 20px; //TODO: change to em
+  }
+
+  blockquote:not(:last-child),
+  p:not(:last-child),
+  ol:not(:last-child),
+  ul:not(:last-child) {
+    margin-bottom: 1em;
+  }
+}

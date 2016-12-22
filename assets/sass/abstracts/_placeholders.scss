@@ -1,0 +1,19 @@
+// Variables
+// -----------------------------------------------------------------------------
+// Breakpoints
+// -----------------------------------------------------------------------------
+$breakpoints: (
+  small: 0em,
+  medium: 40em, // 640px
+  large: 64em, // 1024px
+  xlarge: 75em, // 1200px
+  xxlarge: 90em // 1440px
+);
+
+$small: 0em;
+$medium: 40em;
+$large: 64em;
+$xlarge: 75em;
+$xxlarge: 90em;
+
+$site_max-width: 75rem !default;

@@ -1,0 +1,47 @@
+/* -----------------------------------------------------------------------------
+  # Social Links
+----------------------------------------------------------------------------- */
+.social-links {
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  li:not(:last-child) a {
+    margin-right: 0.625rem;
+  }
+
+  a {
+    display: inline-block;
+    font-size: 1px;
+    color: transparent;
+    width: 50px;
+    height: 50px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      background-size: contain;
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+  }
+}
+
+// Add icons for supported sites
+// -----------------------------------------------------------------------------
+a[href*="facebook.com"]::before {
+  background-image: url(../images/facebook.svg);
+}
+
+a[href*="instagram.com"]::before {
+  background-image: url(../images/instagram.svg);
+}
+
+a[href*="github.com"]::before {
+  background-image: url(../images/github.svg);
+}

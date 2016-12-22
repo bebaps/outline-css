@@ -1,0 +1,67 @@
+/* -----------------------------------------------------------------------------
+  # Card(s)
+----------------------------------------------------------------------------- */
+.card {
+  position: relative;
+  border-radius: 2px;
+  background-color: $color_white;
+  border: 1px solid black;
+  max-width: 300px;
+}
+
+// Image
+// -----------------------------------------------------------------------------
+.card_image {
+  position: relative;
+
+  img {
+    display: block;
+    border-radius: 2px 2px 0 0; // To match the border-radius of the .card
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .card_title {
+    color: $color_white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px; //TODO: change to em
+  }
+}
+
+// Content
+// -----------------------------------------------------------------------------
+.card_content {
+  padding: 20px; //TODO: change to em
+
+  p {
+    margin: 0;
+  }
+}
+
+.card_title {
+  font-size: 1.5rem;
+  line-height: 2em;
+}
+
+// Actions
+// -----------------------------------------------------------------------------
+.card_actions {
+  position: relative;
+  background-color: inherit;
+  border-top: 1px solid rgba($color_black, 0.2);
+  padding: 20px; //TODO: change to em
+
+  a {
+    font-size: 0.875em;
+    color: rgb(255, 171, 64);
+    margin-right: 20px; //TODO: change to em
+    transition: color 0.3s ease;
+    text-transform: uppercase;
+  }
+}

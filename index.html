@@ -4,9 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
+
   <title>Outline CSS</title>
 
-  <link rel="stylesheet" type="text/css" href="css/outline.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/outline.css">
 </head>
 <body>
 
@@ -18,20 +19,22 @@
     <div>Column 5</div>
   </div>
 
-<script>
-  // For IE 10 on Windows Mobile 8
-  if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
-    var msViewportStyle = document.createElement('style')
-    msViewportStyle.appendChild(
-      document.createTextNode(
-        '@-ms-viewport{width:auto!important}'
-      )
-    )
-    document.head.appendChild(msViewportStyle)
-  }
-</script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="js/accordion.js"></script>
-<script src="js/main.js"></script>
+  <script>
+    'use strict';
+    var msViewportStyle;
+
+    // For IE 10 on Windows Mobile 8
+    if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+      msViewportStyle = document.createElement('style');
+      msViewportStyle.appendChild(
+        document.createTextNode(
+          '@-ms-viewport{width:auto!important}'
+        )
+      );
+      document.head.appendChild(msViewportStyle);
+    }
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="assets/js/outline.js"></script>
 </body>
 </html>

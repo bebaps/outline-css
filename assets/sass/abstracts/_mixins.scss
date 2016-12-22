@@ -1,0 +1,17 @@
+// Mixins
+// -----------------------------------------------------------------------------
+// Add an overlay to an element as an ::after
+@mixin overlay($offset: 0) {
+  position: absolute;
+  top: $offset;
+  right: $offset;
+  bottom: $offset;
+  left: $offset;
+}
+
+// Center block
+@mixin center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

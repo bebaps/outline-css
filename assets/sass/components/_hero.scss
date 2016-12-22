@@ -1,0 +1,28 @@
+/* -----------------------------------------------------------------------------
+  # Hero
+----------------------------------------------------------------------------- */
+.hero {
+  width: 100%;
+  min-height: 40vmax; // The height could just as easily be replaced with a set px based height
+  max-height: 500px;
+  padding: 1.5em 1em;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @media screen and (min-width: 37.5em) and (max-width: 61.25em) { // 600px - 980px
+    font-size: 3rem;
+  }
+
+  @media screen and (min-width: 61.3125em) { // 981px
+    min-height: 35vmax;
+    font-size: 4rem;
+  }
+}
+
+// Title
+// -----------------------------------------------------------------------------
+.hero_title {
+  font-size: inherit;
+}

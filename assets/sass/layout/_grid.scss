@@ -1,0 +1,36 @@
+/* -----------------------------------------------------------------------------
+  # Grid - Not to be confused with a grid system, but an actual grid
+----------------------------------------------------------------------------- */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  > div {
+    flex-grow: 1;
+  }
+}
+
+//TODO: rewrite this as a loop, for i through 12 for example. And don't repeat the flex-grow: initial
+//TODO: find a way to keep all children the same height, even when they wrap
+//TODO: add default mobile with of 100% regardless of how many are in the grid
+.grid-1 {
+  > div {
+    flex-grow: initial;
+    width: 100%;
+  }
+}
+
+.grid-2 {
+  > div {
+    flex-grow: initial;
+    width: calc(100% / 2);
+  }
+}
+
+.grid-3 {
+  > div {
+    flex-grow: initial;
+    width: calc(100% / 3);
+  }
+}

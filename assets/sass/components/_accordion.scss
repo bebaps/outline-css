@@ -1,0 +1,27 @@
+/* -----------------------------------------------------------------------------
+  # Accordion
+----------------------------------------------------------------------------- */
+.accordion {
+  max-width: 600px;
+  margin: 2rem auto;
+  width: 90%;
+  background: $color_light-gray;
+}
+
+.accordion_panel-header {
+  padding: 1rem 1.5rem;
+  background: $color_black;
+  color: $color_white;
+  cursor: pointer;
+  transition: 0.3s ease;
+
+  &:hover {
+    background: lighten($color_black, 25%);
+  }
+}
+
+.accordion_panel-content {
+  display: none;
+  padding: 1rem 1.5rem;
+  color: lighten($color_black, 15%);
+}
