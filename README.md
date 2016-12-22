@@ -1,4 +1,4 @@
-# outline-css
+# Outline CSS
 Some CSS to set up a site outline
 
 ## Code Snippets

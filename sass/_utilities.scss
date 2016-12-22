@@ -62,12 +62,12 @@ object.responsive {
 // A standard max-width container
 .container {
   position: relative;
+  width: 90%;
+  max-width: 1200px; //TODO: convert to rem
   margin-left: auto;
   margin-right: auto;
   // padding-left: 20px;
   // padding-right: 20px;
-  width: 90%;
-  max-width: 1200px;
 }
 
 // Push a section off the screen

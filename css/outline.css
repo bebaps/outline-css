@@ -124,7 +124,7 @@ img.responsive, video.responsive, iframe.responsive, embed.responsive, object.re
 
 .section + .section { padding-top: 0; }
 
-.container { position: relative; margin-left: auto; margin-right: auto; width: 90%; max-width: 1200px; }
+.container { position: relative; width: 90%; max-width: 1200px; margin-left: auto; margin-right: auto; }
 
 .off-screen-top { -webkit-transform: translateY(-100vh); -ms-transform: translateY(-100vh); transform: translateY(-100vh); }
 
