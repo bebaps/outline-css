@@ -68,19 +68,26 @@ $large: 900px;
 
 // Demo
 // -----------------------------------------------------------------------------
-.box {
-  height: 50px;
-  background-color: gray;
-}
-
 .grid-system {
   @include grid();
 
   > div {
-      @include column();
+    @include column();
 
-      &:nth-child(6) {
-        @include column(4, $md: 7, $lg: 2);
-      }
+    &:nth-child(1) {
+      @include column(3, $md: 7, $lg: 2);
+    }
+
+    &:nth-child(2) {
+      @include column(1, $md: 2, $lg: 3);
+    }
+
+    &:nth-child(3) {
+      @include column(6, $md: 1, $lg: 5);
+    }
+
+    &:nth-child(4) {
+      @include column(2, $md: 2, $lg: 2);
+    }
   }
 }

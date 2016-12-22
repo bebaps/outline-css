@@ -21,6 +21,12 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
+	"\/code.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/code.html",
+		"oF": 0
+		},
 	"\/code.md": {
 		"cS": 0,
 		"eF": 1,
@@ -144,19 +150,6 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "\/css\/_accordion.css",
-		"oF": 0,
-		"oS": 2,
-		"uL": 1
-		},
-	"\/sass\/_base.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 5,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/css\/_base.css",
 		"oF": 0,
 		"oS": 2,
 		"uL": 1
@@ -287,6 +280,19 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "\/css\/_media-item.css",
+		"oF": 0,
+		"oS": 2,
+		"uL": 1
+		},
+	"\/sass\/_reset.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/css\/_reset.css",
 		"oF": 0,
 		"oS": 2,
 		"uL": 1

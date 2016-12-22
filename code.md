@@ -184,3 +184,38 @@ Note that this uses a 2x2px transparent `png` for the poster
   </div>
 </div>
 ```
+
+# Images
+```
+<figure class="image is-16x16">
+  <img src="video/sample-poster.jpg">
+</figure>
+<figure class="image is-24x24">
+  <img src="http://placehold.it/500x500">
+</figure>
+<figure class="image is-32x32">
+  <img src="http://placehold.it/500x500">
+</figure>
+<figure class="image is-48x48">
+  <img src="http://placehold.it/500x500">
+</figure>
+<figure class="image is-64x64">
+  <img src="http://placehold.it/500x500">
+</figure>
+<figure class="image is-96x96">
+  <img src="http://placehold.it/500x500">
+</figure>
+<figure class="image is-128x128">
+  <img src="http://placehold.it/256x50">
+</figure>
+```
+
+# Grid System
+```
+<div class="grid-system">
+  <div class="column"></div>
+  <div class="column"></div>
+  <div class="column"></div>
+  <div class="column"></div>
+</div>
+```
