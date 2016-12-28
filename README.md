@@ -214,11 +214,29 @@ Note that this uses a 2x2px transparent `png` for the poster
 ```
 
 # Grid System
+***Class names are not needed***
 ```
 <div class="grid-system">
   <div class="column"></div>
   <div class="column"></div>
   <div class="column"></div>
   <div class="column"></div>
+</div>
+```
+
+# Grid - Similar to the block grid in Foundation
+***Class names are not needed***
+```
+<div class="grid">
+  <div>Column 1</div>
+  <div>Column 2</div>
+  <div>Column 3</div>
+  <div>Column 4</div>
+  <div>Column 5</div>
+  <div>Column 6</div>
+  <div>Column 7</div>
+  <div>Column 8</div>
+  <div>Column 9</div>
+  <div>Column 10</div>
 </div>
 ```

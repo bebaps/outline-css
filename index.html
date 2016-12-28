@@ -11,30 +11,9 @@
 </head>
 <body>
 
-  <div class="grid grid-2">
-    <div>Column 1. This column has more content than the rest, but should not take more space.</div>
-    <div>Column 2</div>
-    <div>Column 3</div>
-    <div>Column 4</div>
-    <div>Column 5</div>
-  </div>
 
-  <script>
-    'use strict';
-    var msViewportStyle;
 
-    // For IE 10 on Windows Mobile 8
-    if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
-      msViewportStyle = document.createElement('style');
-      msViewportStyle.appendChild(
-        document.createTextNode(
-          '@-ms-viewport{width:auto!important}'
-        )
-      );
-      document.head.appendChild(msViewportStyle);
-    }
-  </script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="assets/js/outline.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="assets/js/outline.js"></script>
 </body>
 </html>

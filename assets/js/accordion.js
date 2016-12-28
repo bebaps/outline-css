@@ -1,9 +1,7 @@
 // Accordion
 // -----------------------------------------------------------------------------
-var accordion = function() {
-  'use strict';
-
-  var $accordionPanel, accordionHeader, accordionContent, $this;
+const accordion = function() {
+  let $accordionPanel, accordionHeader, accordionContent, $this;
 
   $accordionPanel  = $('.accordion_panel');
   accordionHeader  = '.accordion_panel-header';
@@ -16,3 +14,8 @@ var accordion = function() {
     return false;
   });
 };
+
+// Demo usage
+(function($) {
+  accordion();
+})(jQuery);

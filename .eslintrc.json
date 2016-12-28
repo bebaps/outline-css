@@ -151,7 +151,7 @@
     "operator-assignment": [ 2, "always" ],
     "operator-linebreak": [ 2, "after", { "overrides": { "?": "before", ":": "before" } } ],
     "padded-blocks": [ 2, "never" ],
-    "prefer-const": 1,
+    // "prefer-const": 1,
     "prefer-spread": 2,
     "prefer-template": 1,
     "quotes": [ 2, "single", "avoid-escape" ],
@@ -168,7 +168,7 @@
       "always",
       { "markers": [ "global", "globals", "eslint", "eslint-disable", "*package", "!", "," ] }
     ],
-    "strict": [ 2, "global" ],
+    // "strict": [ 2, "global" ],
     "template-curly-spacing": [ 2, "never" ],
     "use-isnan": 2,
     "vars-on-top": 2,
