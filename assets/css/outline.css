@@ -207,6 +207,11 @@ img.responsive, video.responsive, iframe.responsive, embed.responsive, object.re
 
 .is-closed { display: none; }
 
+/* ----------------------------------------------------------------------------- # Modifiers ----------------------------------------------------------------------------- */
+.mt100, [data-mod="mt100"] { margin-top: 100px; }
+
+.test { width: 200px; height: 100px; background-color: green; color: white; }
+
 /* ----------------------------------------------------------------------------- # Accordion ----------------------------------------------------------------------------- */
 .accordion { max-width: 600px; margin: 2rem auto; width: 90%; background: #f4f4f4; }
 
@@ -316,5 +321,4 @@ a[href*="github.com"]::before { background-image: url(../images/github.svg); }
 @media screen and (min-width: 600px) { .grid > div { width: calc(100% / 3); height: 100%; } }
 
 @media screen and (min-width: 992px) { .grid > div { width: calc(100% / 5); height: 100%; } }
-
 /*# sourceMappingURL=outline.css.map */
